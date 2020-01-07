@@ -1,12 +1,20 @@
 # SPA-con-Angular
 Aplicación que muestra algunos héroes de DC y Marvel con ayuda del Framework Angular. Se pueden realizar busquedas para encontrar algún héroe que se encuentre disponible en la data local del proyecto.
 
-# Herramientas usadas en el proyecto:  
+## Herramientas usadas en el proyecto:  
 - Angular.  
 - Bootstrap.  
 - TypeScript.  
 
-# Screenshot.  
+## Instalar Angular.   
+`npm install -g @angular/cli`
+
+## Instalar node_modules.  
+Es necesario instalar los modulos de Node.js para poder utilizar el proyecto, esto se hace mediante el comando:  
+`npm install`  
+Se debe abrir un terminal dentro de la carpeta donde se encuentra el proyecto y ejecutar el comando antes mencionado.   
+
+## Screenshot.  
 ![screencapture-localhost-4200-heroes-2020-01-07-11_27_55](https://user-images.githubusercontent.com/36280877/71915273-02edde00-3141-11ea-8696-ee86601370ae.png)
 
 - Opción para realizar busqueda de héroes.  
