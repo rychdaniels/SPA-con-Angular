@@ -1,0 +1,11 @@
+<!-- Componente hijo de las tarjeta de heroe -->
+<h1>Héroes <small>Marvel y DC</small></h1>
+<hr>
+
+<div class="card-columns">
+ 
+    <!-- Detectamos el evento emitido en este caso es (heroeSeleccionado) 
+        con ayuda de $event podemos escuchar el evento que esta siendo emitido
+        en este caso es (heroeSeleccionado)-->
+    <app-heroe-tarjeta (heroeSeleccionado) = "verHeroe( $event )" [heroe]="foo" [index]="i" *ngFor="let foo of heroes; let i = index"></app-heroe-tarjeta>
+</div>
